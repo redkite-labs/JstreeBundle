@@ -1,0 +1,15 @@
+#jstree_items_container {
+  width: 100%;
+  font: normal 14px/20px Arial, Verdana, Helvetica, sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+}
+
+#jstree {
+  width: 300px;
+}
+
+.al_row_item {
+  padding-bottom: 10px;
+}

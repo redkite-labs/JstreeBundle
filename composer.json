@@ -1,0 +1,21 @@
+{
+    "name": "alphalemon/app-jstree-bundle",
+    "description": "Adds the Jstree jquery plugin to AlphaLemon CMS",
+    "keywords": ["alphalemon", "cms", "app"],
+    "homepage": "http://alphalemon.com",
+    "type": "alphalemon-block-bundle",
+    "license": "MIT",
+    "authors": [{
+      "name": "AlphaLemon",
+      "email": "info@alphalemon.com"
+    }],
+    "require-dev": {
+        "alphalemon/alphalemon-cms-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "AlphaLemon\\Block\\JstreeBundle": ""
+        }
+    },
+    "target-dir" : "AlphaLemon/Block/JstreeBundle",
+    "minimum-stability": "dev"
+}

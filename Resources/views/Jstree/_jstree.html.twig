@@ -1,0 +1,39 @@
+{% block jstree %}
+    <div id="jstree_container">
+        <div id="jstree" class="pull-left"></div>
+        <div id="jstree_item" class="pull-right">
+            {% if attributes_form is defined %}
+            {% include attributes_form %}
+            {%endif %}
+        </div>
+        <div class="clearfix"></div>
+    </div>
+{% endblock %}
+    
+{% block script %}  
+    <script src="/components/jstree/jquery.jstree.js"></script>
+    <script>
+        $(function () {
+            $("#jstree").jstree({ 
+                "themes" : {
+                    "theme": "classic",
+                    "url": "/bundles/jstree/css/themes/alphalemon/style.css"
+                },
+                "json_data" : {
+                    "data" : [
+                        {
+                            "data": "Menu",
+                            "attr" : { "id" : "menu" },
+                            "state": "open",
+                            "children": [ {{ jstree_nodes|raw }} ]
+                        }
+                    ]
+                },
+                "plugins" : [ "themes", "json_data", "ui", "contextmenu", "crrm" ]
+            });
+        });
+    </script>
+{% endblock %}
+
+    
+    
