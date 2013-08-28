@@ -1,6 +1,6 @@
 <?php
 
-namespace AlphaLemon\Block\JstreeBundle;
+namespace RedKiteCms\Block\JstreeBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

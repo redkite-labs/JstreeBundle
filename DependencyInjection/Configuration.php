@@ -1,6 +1,6 @@
 <?php
 
-namespace AlphaLemon\Block\JstreeBundle\DependencyInjection;
+namespace RedKiteCms\Block\JstreeBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace AlphaLemon\Block\JstreeBundle\Tests\Controller;
+namespace RedKiteCms\Block\JstreeBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

@@ -1,21 +1,24 @@
 {
-    "name": "alphalemon/app-jstree-bundle",
-    "description": "Adds the Jstree jquery plugin to AlphaLemon CMS",
-    "keywords": ["alphalemon", "cms", "app"],
-    "homepage": "http://alphalemon.com",
-    "type": "alphalemon-block-bundle",
+    "name": "redkite-cms/jstree-bundle",
+    "description": "Adds the Jstree jquery plugin to RedKite CMS",
+    "keywords": ["redkite", "redkite labs", "redkite cms", "cms"],
+    "homepage": "http://redkite-labs.com",
+    "type": "redkite-cms-app",
     "license": "MIT",
-    "authors": [{
-      "name": "AlphaLemon",
-      "email": "info@alphalemon.com"
-    }],
+    "authors": [
+        {
+            "name": "RedKite Labs",
+            "email": "info@redkite-labs.com"
+        }
+    ],
     "require-dev": {
-        "alphalemon/alphalemon-cms-bundle": "dev-master"
+        "redkite-cms/redkite-cms-bundle": "dev-master",
+        "willdurand/propel-typehintable-behavior": "dev-master"
     },
     "autoload": {
-        "psr-0": { "AlphaLemon\\Block\\JstreeBundle": ""
+        "psr-0": { "RedKiteCms\\Block\\JstreeBundle": ""
         }
     },
-    "target-dir" : "AlphaLemon/Block/JstreeBundle",
+    "target-dir" : "RedKiteCms/Block/JstreeBundle",
     "minimum-stability": "dev"
 }

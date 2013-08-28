@@ -6,7 +6,7 @@
 
     <!--
     <parameters>
-        <parameter key="jstree.example.class">AlphaLemon\Block\JstreeBundle\Example</parameter>
+        <parameter key="jstree.example.class">RedKiteCms\Block\JstreeBundle\Example</parameter>
     </parameters>
 
     <services>

@@ -1,6 +1,6 @@
 {
     "bundles" : {
-        "AlphaLemon\\Block\\JstreeBundle\\JstreeBundle" : {
+        "RedKiteCms\\Block\\JstreeBundle\\JstreeBundle" : {
             "environments" : ["all"]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace AlphaLemon\Block\JstreeBundle\DependencyInjection;
+namespace RedKiteCms\Block\JstreeBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
